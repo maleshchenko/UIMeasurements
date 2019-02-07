@@ -1,2 +1,2 @@
 # UIMeasurements
-Swift class that helps easily determine "bezeled/bezelless" iPhone type
+Swift class that allows to easily determine "bezeled/bezelless" iPhone type
