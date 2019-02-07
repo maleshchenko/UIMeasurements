@@ -12,7 +12,7 @@ public class UIMeasurements: NSObject {
     }()
     
     static public let toolBarHeight: CGFloat = {
-        return FallbackConstants.universalHeight + safeAreaInsets.bottom
+        return UniversalConstants.height + safeAreaInsets.bottom
     }()
     
     static public let isBezeled = { () -> Bool in
@@ -24,6 +24,6 @@ public class UIMeasurements: NSObject {
     }()
 }
 
-private struct FallbackConstants {
-    static let universalHeight: CGFloat = 44.0
+private struct UniversalConstants {
+    static let height: CGFloat = 44.0
 }
